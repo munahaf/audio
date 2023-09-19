@@ -12,8 +12,8 @@ python -m torch.utils.collect_env
 env | grep TORCHAUDIO || true
 
 (
-    cd build/temp*/test/cpp
-    ctest
+    cd build/temp*/Release/test/cpp
+    ctest  --verbose
 )
 
 (

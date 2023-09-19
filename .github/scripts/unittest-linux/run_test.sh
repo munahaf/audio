@@ -24,7 +24,7 @@ fi
 
 (
     cd build/temp*/test/cpp
-    ctest
+    ctest --verbose
 )
 
 (
